@@ -21,11 +21,7 @@ def top_countries(top=10, file=None):
             str(row['gold']),
             str(row['silver']),
             str(row['bronze']),
-
             str(row['gold'] + row['silver'] + row['bronze']),
-
-            str(row['gold'] + row['silver'] + row['gold']),
-
         )
 
     console = Console(file=file)
